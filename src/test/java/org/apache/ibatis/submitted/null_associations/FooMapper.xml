@@ -22,7 +22,7 @@
 
 <mapper namespace="org.apache.ibatis.submitted.null_associations.FooMapper">
 
-  <resultMap type="Bar" id="barResult">
+  <resultMap type="Bar" id="barResult" >
     <result property="field1" column="F_FIELD2_FIELD1" javaType="long" jdbcType="BIGINT"/>
     <result property="field2" column="F_FIELD2_FIELD2" javaType="long" jdbcType="BIGINT"/>
     <result property="field3" column="F_FIELD2_FIELD3" javaType="long" jdbcType="BIGINT"/>
